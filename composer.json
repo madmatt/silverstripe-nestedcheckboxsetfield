@@ -1,0 +1,16 @@
+{
+    "name": "madmatt/silverstripe-nestedcheckboxsetfield",
+    "description": "Adds a level of nesting to a CheckboxSetField using a has_many/has_one relationship",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "forms"],
+    "homepage": "https://github.com/madmatt/silverstripe-nestedcheckboxsetfield",
+    "authors": [
+        {
+            "name": "Matt Peel",
+            "email": "signups@madman.net.nz"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "3.*"
+    }
+}
