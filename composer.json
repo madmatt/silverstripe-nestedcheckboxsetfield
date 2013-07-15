@@ -4,6 +4,7 @@
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "forms"],
     "homepage": "https://github.com/madmatt/silverstripe-nestedcheckboxsetfield",
+    "license": "WTFPL",
     "authors": [
         {
             "name": "Matt Peel",
