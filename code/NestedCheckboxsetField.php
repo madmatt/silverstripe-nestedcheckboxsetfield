@@ -84,13 +84,13 @@ class NestedCheckboxSetField extends CheckboxSetField {
 			}
 		}
 
-		$rootSources = $rootSourceParam::get();
+		$rootSources = $rootSourceParam::get()->sort("$rootTitleParam ASC");
 		$rootOptions = array();
 		$rootOdd = 0;
 
 		foreach($rootSources as $source) {
 			// $source is an instance of $this->rootClass, which we can call $this->childRelation() on
-			$childSources = $source->$childRelationParam();
+			$childSources = $source->$childRelationParam()->sort("$childTitleParam ASC");
 			$rootTitle = $source->$rootTitleParam;
 			$childArray = array();
 			$childOdd = 0;
