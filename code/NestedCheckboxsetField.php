@@ -129,4 +129,8 @@ class NestedCheckboxSetField extends CheckboxSetField {
 
 		return $this->customise($properties)->renderWith($this->getTemplates());
 	}
+
+	public function Type() {
+		return 'optionset checkboxset nestedcheckboxset';
+	}
 }
